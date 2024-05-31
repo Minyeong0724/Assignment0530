@@ -10,8 +10,8 @@ int main() {
         return -1;
     }
 
-    // cv::QRCodeDetector qrDecoder;
-    cv::GFTTDetector qrDecoder; 
+    cv::QRCodeDetector qrDecoder;
+    // cv::GFTTDetector qrDecoder; 
     cv::Mat frame;
 
     while (true) {
